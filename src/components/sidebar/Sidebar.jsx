@@ -1,6 +1,6 @@
 
 import {firstSectionLinks, secondSectionLinks} from "../../data/linksData.js";
-import styled, {ThemeProvider} from "styled-components";
+import styled from "styled-components";
 import {Logo} from "../logo/logo.jsx";
 import {SidebarField} from "../sidebarField/sidebarField.jsx";
 

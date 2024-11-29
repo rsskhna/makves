@@ -52,7 +52,7 @@ export default function App() {
     }
 
     return (
-        <ThemeProvider theme={dark}>
+        <ThemeProvider theme={light}>
             <AppWrapper>
                 <Sidebar isOpen={isOpen} />
 
