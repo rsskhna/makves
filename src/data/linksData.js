@@ -5,7 +5,7 @@ import payments from '../assets/wallet.svg'
 import finances from '../assets/finances.svg'
 import messages from '../assets/messages.svg'
 import settings from '../assets/settings.svg'
-import support from '../assets/call.svg'
+import support from '../assets/support.svg'
 
 export const firstSectionLinks = [
     {

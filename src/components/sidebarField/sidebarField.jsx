@@ -18,7 +18,7 @@ const StyledNavLink = styled(NavLink)`
     position: relative;
     z-index: 2;
 
-    color: inherit;
+    color: ${props => props.theme.text};
     text-decoration: none;
 
     background-color: transparent;
@@ -26,17 +26,17 @@ const StyledNavLink = styled(NavLink)`
 
     padding: 10px;
 
-    transition: 0.3s background-color ease-in-out;
+    transition: 0.3s background-color ease-in-out, 0.3s color ease-in-out;
     
     &:hover{
         cursor: pointer;
-        color: #334155;
-        background-color: #F1F5F9;
+        color: ${props => props.theme.textHover};
+        background-color: ${props => props.theme.fieldHover};
     }
     
     &.active{
-        background-color: #F0F2FF;
-        color: #0023C4;
+        background-color: ${props => props.theme.fieldActive};
+        color: ${props => props.theme.textActive};
     }
 `
 

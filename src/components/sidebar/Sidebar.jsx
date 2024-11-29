@@ -14,7 +14,7 @@ const SidebarWrapper = styled.div`
     position: relative;
     z-index: 1;
 
-    background-color: #ffffff;
+    background-color: ${props => props.theme.sidebarBg};
 
     overflow: hidden;
 

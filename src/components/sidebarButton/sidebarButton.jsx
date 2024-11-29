@@ -16,6 +16,8 @@ const StyledButton = styled.button`
 
     border-radius: 100px;
     border: none;
+    
+    background-color: ${props => props.$isOpen ?  props.theme.buttonBgActive :  props.theme.buttonBg};
 
     padding: 0;
 

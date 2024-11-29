@@ -20,7 +20,7 @@ const LogoImage = styled.img`
 const LogoName = styled.p`
     font-weight: 700;
     font-size: 22px;
-    color: #FF9900;
+    color:  ${props => props.theme.logoColor};
 
     visibility: ${props => props.$isOpen ? 'visible' : 'hidden'};
     opacity: ${props => props.$isOpen ? '1' : '0'};
