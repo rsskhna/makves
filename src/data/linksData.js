@@ -7,39 +7,36 @@ import messages from '../assets/messages.svg'
 import settings from '../assets/settings.svg'
 import support from '../assets/call.svg'
 
-const field = 'sidebar__field-link';
-const active = 'sidebar__field-link_active';
-
 export const firstSectionLinks = [
     {
         name: 'Dashboard',
         iconSrc: dashboard,
-        className: `${field} ${active}`
+        to: '/'
     },
     {
         name: 'Sales',
         iconSrc: sales,
-        className: `${field}`
+        to: '/sales'
     },
     {
         name: 'Costs',
         iconSrc: costs,
-        className: `${field}`
+        to: '/costs'
     },
     {
         name: 'Payments',
         iconSrc: payments,
-        className: `${field}`
+        to: '/payments'
     },
     {
         name: 'Finances',
         iconSrc: finances,
-        className: `${field}`
+        to: '/finances'
     },
     {
         name: 'Messages',
         iconSrc: messages,
-        className: `${field}`
+        to: '/messages'
     },
 ]
 
@@ -47,11 +44,11 @@ export const secondSectionLinks = [
     {
         name: 'Settings',
         iconSrc: settings,
-        className: `${field}`
+        to: '/settings'
     },
     {
         name: 'Support',
         iconSrc: support,
-        className: `${field}`
+        to: '/support'
     },
 ]
